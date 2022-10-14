@@ -1,0 +1,119 @@
+:root {
+    font-family: arial;
+    font-size: 16px;
+
+}
+body {min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+   
+    border-top: 2px solid black;
+    margin-bottom: 10vh;
+    
+}
+
+.box {
+
+    height: 25vh;
+    width: 100%;
+    border-bottom: 1.5px solid black;
+    border-top: 5px solid blue;
+    background-image: linear-gradient(to right, #B3B8BA, #B8BCBF, #C1C5C8, #C2C6C9, #C5C9CC, #C7CBD0, #BFC7CD, #BFC6CD, #BDC6CD, #B5C1CD, #ADBACD, #ABBACC, #A4B6CA, #9DB1C9);
+    background-image: url(img/gradient\ head\ landscape.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+
+}
+
+.bio {
+    display: flex;
+    color: red;
+    position: sticky;
+    padding: 1rem;
+    align-content: center;
+}
+
+p {
+    color: blue;
+
+}
+
+.main {
+    display: flex;
+}
+
+.main .menu {
+    height: 75vh;
+    border-bottom: 1.5px solid black;
+    background-color: black;
+    position: fixed;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    
+
+
+}
+.navbar{
+    height:20vh;
+    width: 40vw;
+
+
+position: fixed;}
+
+.media{
+    margin-left: 30%;
+    
+}
+
+.text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 10vh;
+    height: 62vh;
+    margin-left: 0;
+    margin-right: 0%;
+    float: right;
+
+}
+
+
+
+footer {width: 100%;
+height: 8vh;
+border: 1.5px solid black;
+background-color: black;
+position:fixed; bottom:0px; left:0px; right:0px; overflow:hidden;
+}
+
+a.trance-state {
+ display: inline-block;     
+   position: fixed;    
+   z-index: 1;     
+   padding: 10px;
+}
+.icons {width: 30vw;}
+
+img{height:30vh;
+    width: 40vw;
+    padding-top: 1rem;
+
+;}
+.enviroment {height:30vh;
+    width: 40vw;
+    padding-top: 1rem;
+}
+.sysicons {height:60vh;
+    width: 45vw;
+    padding-top: 1rem;
+}
+.vid {height: 40vh;
+    width: 40vw;
+    padding-top: 1rem;
+}
